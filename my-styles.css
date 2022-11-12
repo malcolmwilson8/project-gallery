@@ -1,0 +1,33 @@
+img {
+    width: 250px;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.projects {
+    display:  flex;
+    width: 1200px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 0 16px rgba(0,0,0,0.5)
+}
+
+@media screen and (max-width: 1000px) {
+    .projects {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .projects {
+        flex-direction: column;
+    }
+}
