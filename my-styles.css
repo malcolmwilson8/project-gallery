@@ -1,10 +1,20 @@
+html{
+    background: linear-gradient(to right, #626d45,#f2f1ef);
+    color: white;
+}
+
 img {
     width: 250px;
     object-fit: cover;
     object-position: bottom;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin: 20px;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+h1{
+    text-align: left;
 }
 
 .projects {
