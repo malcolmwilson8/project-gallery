@@ -54,7 +54,7 @@ const projects = document.querySelectorAll('.project');
       function myFunction6() {
         var x = document.getElementById("placeholder-text6");
         if (x.innerHTML === "") {
-          x.innerHTML = "For my sixth and final project I built a 3d spinner feature on my website, displaying information on the projects I had completed during the application process."
+          x.innerHTML = "For my sixth and final project I built a 3d gallery feature on my website, displaying information on the projects I had completed during the application process."
         } else {
           x.innerHTML = "";
         }
